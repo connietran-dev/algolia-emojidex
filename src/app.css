@@ -58,3 +58,32 @@
   margin: 2rem auto;
   text-align: center;
 }
+
+body { font-family: 'Work Sans', sans-serif; padding: 1em; }
+.ais-SearchBox { margin: 1em 0; }
+
+body { font-family: 'Work Sans', sans-serif; padding: 1em;   background-color: #E5E5E5; }
+.ais-SearchBox { margin: 1em 0; }
+.ais-Pagination { margin-top: 1em }
+.left-panel { float: left; width: 250px; }
+.right-panel { margin-left: 260px; }
+
+h1.navbar-brand {
+  font-size: 30px;
+}
+
+.main-container {
+  margin-top: 80px;
+}
+
+.ais-Hits-item {
+  background-color: white;
+}
+
+.emoji-image {
+  min-height: 100px;
+}
+
+.label {
+  font-weight: 800;
+}

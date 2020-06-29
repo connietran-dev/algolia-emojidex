@@ -10,35 +10,39 @@
   <link rel="shortcut icon" href="./favicon.png">
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.css@7/themes/algolia-min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/pulse/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./src/index.css">
   <link rel="stylesheet" href="./src/app.css">
 
-  <title>Algolia EmojiDex</title>
+  <title>EmojiDex</title>
 </head>
 
 <body>
-  <header class="header">
-    <h1 class="header-title">
-      <a href="/">Algolia EmojiDex</a>
-    </h1>
-    <p class="header-subtitle">
-      using
-      <a href="https://github.com/algolia/instantsearch.js">
-        InstantSearch.js
-      </a>
-    </p>
-  </header>
+  <nav class="navbar navbar-expand-sm fixed-top navbar-dark" style="background-color: #593196;">
+    <h1 class="navbar-brand">EmojiDex</h1>
+  </nav>
 
-  <div class="container">
-    <div class="search-panel">
-      <div class="search-panel__results">
+  <div class="container main-container">
+    <div class="ais-InstantSearch">
+
+      <div class="left-panel">
+        <div id="current-refinements"></div>
+
+        <h2>Filters</h2>
+        <div id="filters-list"></div>
+
+        <div id="clear-refinements"></div>
+      </div>
+
+      <div class="right-panel">
         <div id="searchbox"></div>
         <div id="hits"></div>
+        <div id="pagination" class="pagination"></div>
       </div>
     </div>
-
-    <div id="pagination"></div>
   </div>
+
 
   <script src="https://cdn.jsdelivr.net/algoliasearch/3.32.0/algoliasearchLite.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.7.0"></script>
