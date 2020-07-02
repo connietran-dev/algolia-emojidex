@@ -45,13 +45,13 @@ A hackathon goes by fast! 4 hours zooms by when you're trying to create a fully 
 
 Even though I'm always wishing for more time to polish any app I build, I was still able to implement and deploy a fully functioning web application and use Algolia search in a really short amount of time! 
 
-After going through this hackathon, I definitely feel more mentally prepared for future hacakthons and look forward to being involved in more events like this.
+After going through this hackathon, I definitely feel more mentally prepared for future hackathons and look forward to being involved in more events like this.
 
 
 ## Future Enhancements
 
 * Currently, there is only one dataset indexed due to Algolia's size limitations on datasets, thus, there is only one filter. I'd love to index additional datasets. This will create additional filters as well as generate additional pages of emojis.
-* The hackathon took place over the course of just 4 hours! Given this short amount of time, I'd love to dive deeper into Algolia's functionality and implement more detailed features that Algolia offers, sin EmojiDexuch as pagination and additional UI components.
+* The hackathon took place over the course of just 4 hours! Given this short amount of time, I'd love to dive deeper into Algolia's functionality and implement more detailed features that Algolia offers, such as pagination and additional UI components.
 * As always, I'd love to continue to make a great user experience and continue to improve the design of the page.
 
 Thank you to mintbean.io for hosting this event. I look forward to many more!
